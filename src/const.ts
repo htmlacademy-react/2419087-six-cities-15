@@ -6,12 +6,12 @@ export enum AppRoute {
 }
 
 export const Cities = [
-  'Paris',
-  'Cologne',
-  'Brussels',
   'Amsterdam',
+  'Brussels',
+  'Cologne',
+  'Dusseldorf',
   'Hamburg',
-  'Dusseldorf'
+  'Paris',
 ] as const;
 
 export enum OfferSortList {

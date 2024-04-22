@@ -16,7 +16,7 @@ export const comments: reviewProps[] = [
     rating: 80,
     user: {
       name: 'Max',
-      avatarUrl: '../../../markup/img/avatar-max.jpg',
+      avatarUrl: 'img/avatar-max.jpg',
     }
   },
 ];
