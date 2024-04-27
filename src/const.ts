@@ -1,3 +1,5 @@
+import {CityNameType} from './types/location';
+
 export enum AppRoute {
   Root = '/',
   Offer = '/offer/:id',
@@ -11,8 +13,10 @@ export const Cities = [
   'Brussels',
   'Amsterdam',
   'Hamburg',
-  'Dusseldorf'
+  'Dusseldorf',
 ] as const;
+
+export const DEFAULT_CITY: CityNameType = 'Paris' as const;
 
 export enum OfferSortList {
   Default = 'Popular',
@@ -26,3 +30,8 @@ export enum AuthorizationStatus {
   NoAuth = 'NO_AUTH',
   Unknown = 'UNKNOWN',
 }
+
+
+export const URL_MARKER_DEFAULT = '/img/pin.svg';
+
+export const URL_MARKER_CURRENT = '/img/pin-active.svg';
